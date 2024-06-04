@@ -1,0 +1,12 @@
+.rebar3
+_build
+doc
+_checkouts
+.eunit
+*.beam
+*.plt
+erl_crash.dump
+ebin
+rebar3.crashdump
+.erlang.mk
+*~

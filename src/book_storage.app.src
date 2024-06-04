@@ -1,0 +1,22 @@
+{application, book_storage, [
+  {description, "Embeddable time-series storage for the BEAM."},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []},
+  {modules, [
+    book_storage,
+    book_storage_codec,
+    book_target,
+    book_target_file,
+    book_target_folder,
+    book_target_memory
+  ]},
+  {licenses, ["MIT"]},
+  {links, [
+    {"GitHub", "https://github.com/erlangsters/book-storage"}
+  ]}
+]}.
